@@ -1,0 +1,205 @@
+/* HERE IS THE TESTER! */
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.box-one{
+    background: black;
+    width: 100px;
+    height: 100px;
+}
+.box-two{
+    background: bisque;
+    width: 100px;
+}
+
+@media (max-width: 400px) {
+    .container{
+        display: flex;       
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .box-one{
+        background: black;
+        width: 100px;
+        height: 100px;
+    }
+    .box-two{
+        background: bisque;
+        width: 100px;
+        height: 100px;
+    }
+} */
+/* FONTS */
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Fraunces', serif;
+font-family: 'Inter', sans-serif; */
+
+.attribution{
+    position: fixed;
+    bottom: 0;
+    font-family: 'Montserrat', serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    display: flex;
+    /* width: 60%; */
+    height: 400px;
+    justify-content: center;
+}
+img.desktop{
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+.mobile{
+    display: none;
+}
+.box-two{
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    padding: 2%;
+    width: 266px;
+    background-color: hsl(0, 0%, 100%);
+}
+.product-type{
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.perfume-title{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: x-large;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 60px;
+}
+.perfume-description{
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-right: 30px;
+}
+.perfume-prices{
+    display: flex;
+    padding-left: 15px;
+    padding-top: 25px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    align-items: center;
+}
+.sale-price{
+    color: hsl(158, 36%, 37%);
+    font-size: 25px;
+}
+.normal-price{
+    text-decoration: line-through;
+    padding-left: 33px;
+    font-size: 12px;
+    font-weight: 200;
+}
+.purchase-button{
+    margin-top: 30px;
+    background: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: .5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+}
+.purchase-button:hover{
+    background:  hsl(158, 34%, 25%);
+}
+
+
+@media (max-width: 540px ) {
+    html{
+        display: flex;
+        justify-content: center;
+    }
+    .desktop{
+        display: none;
+    }
+    img.mobile{
+        display: none;
+        display: flex;
+        width: 277px;
+        border-top-right-radius: .5rem;
+        border-top-left-radius: .5rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 375px;
+        height: 700px;
+        background-color: hsl(30, 38%, 92%);
+    }
+    /* .container{
+        display: flex;
+        max-width: 376px;
+        height: -320px;
+        justify-content: center;    
+    } */
+    .box-two{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: .5rem;
+        height: 300px;
+    }
+    .product-type{
+
+    }
+    .perfume-title{
+        margin-right: -30px;
+    }
+    .perfume-description{
+        margin-right: -21px;
+        font-size: 12px;
+    }
+    .perfume-prices{
+        margin-top: -10px;
+        padding-bottom: 10px;
+    }
+    .sale-price{
+        margin-right: -10px;
+    }
+    .normal-price{
+
+    }
+    .purchase-button{
+        margin-top: 1px;
+        margin-bottom: 10px;
+    }
+}
